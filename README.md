@@ -36,7 +36,7 @@ Your Phone ──→ Sendblue API ──→ Hermes API Bridge ──→ Hermes A
 
 ```bash
 # 1. Clone into a directory alongside your Hermes setup
-git clone https://github.com/.../hermes-sendblue-bridge.git
+git clone https://github.com/codebooker/hermes-sendblue-bridge.git
 cd hermes-sendblue-bridge
 
 # 2. Run the installer (checks prerequisites, installs deps, sets up .env)

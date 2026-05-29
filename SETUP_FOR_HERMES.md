@@ -25,7 +25,7 @@ If anything is missing, tell the user what to install and stop.
 
 ```
 cd ~/workspace 2>/dev/null || cd ~
-git clone https://github.com/nous/hermes-sendblue-bridge.git
+git clone https://github.com/codebooker/hermes-sendblue-bridge.git
 cd hermes-sendblue-bridge
 ```
 
