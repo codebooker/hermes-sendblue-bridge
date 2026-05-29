@@ -183,4 +183,4 @@ The trade-off is ~720 API calls/hour, well within Sendblue's rate limits.
 
 ## License
 
-MIT
+GPLv3 — see [LICENSE](LICENSE)
