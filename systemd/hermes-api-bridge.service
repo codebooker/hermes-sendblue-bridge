@@ -1,0 +1,15 @@
+[Unit]
+Description=Hermes API Bridge (OpenAI-compatible endpoint on :5000)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=HERMES_HOME=%h/.hermes
+EnvironmentFile=%h/hermes-sendblue-bridge/.env
+ExecStart=%h/.hermes/hermes-agent/venv/bin/python %h/hermes-sendblue-bridge/hermes-api-bridge.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

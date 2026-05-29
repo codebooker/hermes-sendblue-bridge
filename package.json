@@ -1,0 +1,10 @@
+{
+  "name": "hermes-sendblue-bridge",
+  "version": "1.0.0",
+  "description": "Sendblue ↔ Hermes Agent SMS/iMessage bridge — text your Hermes agent from any phone",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "sql.js": "^1.14.1"
+  }
+}

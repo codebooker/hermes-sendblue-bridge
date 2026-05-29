@@ -1,0 +1,18 @@
+# Environment secrets
+.env
+
+# Node modules
+node_modules/
+
+# SQLite conversation databases
+*.db
+
+# Deduplication state
+.sendblue-processed-messages
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Lockfiles (users install fresh)
+package-lock.json

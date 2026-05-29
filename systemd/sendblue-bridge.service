@@ -1,0 +1,15 @@
+[Unit]
+Description=Sendblue SMS/iMessage ↔ Hermes Bridge (polling)
+After=hermes-api-bridge.service
+Requires=hermes-api-bridge.service
+
+[Service]
+Type=simple
+WorkingDirectory=%h/hermes-sendblue-bridge
+ExecStart=%h/.local/bin/node %h/hermes-sendblue-bridge/sendblue-bridge-polling.js
+EnvironmentFile=%h/hermes-sendblue-bridge/.env
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
